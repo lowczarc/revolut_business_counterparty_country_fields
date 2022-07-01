@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "allowJs": false,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "baseUrl": "./",
+        "noEmit": true,
+        "paths": {
+            "@/*": ["src/*"],
+            "?/*": ["tests/*"]
+        },
+        "typeRoots": [ "./types", "./node_modules/@types"]
+    },
+    "exclude": ["node_modules", "types"]
+}
