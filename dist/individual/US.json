@@ -1,0 +1,1 @@
+{ "fields": ["accountNumber", "routingNumber", "firstName", "lastName", "email"], "isAddressOptional": false }

@@ -1,0 +1,1 @@
+{ "fields": ["iban", "bic", "firstName", "lastName", "email"], "isAddressOptional": false }

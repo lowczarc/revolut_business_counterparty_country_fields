@@ -1,6 +1,27 @@
 {
   "name": "revolut_country_fields",
   "version": "1.0.0",
-  "main": "index.ts",
-  "license": "MIT"
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "author": "Lancelot Owczarczak <lancelot@pianity.com>",
+  "engines": {
+      "node": ">=16.13.0"
+  },
+  "scripts": {
+      "build": "tsc",
+      "install": "yarn build"
+  },
+  "dependencies": {
+      "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+      "@types/node": "^16.11.11",
+      "eslint": "^8.3.0",
+      "eslint-config-airbnb": "^19.0.1",
+      "eslint-config-airbnb-base": "^15.0.0",
+      "eslint-config-airbnb-typescript": "^16.1.0",
+      "eslint-config-prettier": "^8.1.0",
+      "eslint-plugin-import": "^2.25.3"
+  }
 }
